@@ -1,0 +1,12 @@
+/**
+ * This is the product
+ *
+ */
+$itemWidth: 300px;
+$itemHeight: 450px;
+ .product {
+    padding: 1rem;
+    width: $itemWidth;
+    height: $itemHeight;
+    display: flex;
+ }

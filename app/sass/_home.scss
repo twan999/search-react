@@ -1,0 +1,24 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img1/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    div.content {
+        max-width: $siteWidth;
+        margin: 0 auto;
+        // color: #FFF;
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
